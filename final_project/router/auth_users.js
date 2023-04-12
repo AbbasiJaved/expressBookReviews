@@ -71,7 +71,7 @@ regd_users.delete("/auth/review/:isbn", (req, res) => {
 
      books[req.params.isbn]["reviews"]={};
 
-     res.send(books[req.params.isbn]);
+     res.send(books[req.params.isbn]);c
 
 });
 
